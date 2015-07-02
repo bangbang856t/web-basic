@@ -39,8 +39,7 @@ git add .
 
 Commit
 ```
-
-`git commit -m "Nội dung comment"
+git commit -m "Nội dung comment"
 ```
 
 Sau đó push code lên repo của bạn (không push lên web-basic nhé)
@@ -48,9 +47,11 @@ Sau đó push code lên repo của bạn (không push lên web-basic nhé)
 git push origin abc với abc là branch của task đang làm
 
 Ở đây ví dụ bạn làm phần layout > thực hiện:
-
+```
 git push origin layout
+```
 
 Sau đó gửi pull request lên branch training của web-basic để so sánh và merge ([cần đọc document của git] (https://git-scm.com/book/vi/v1/B%E1%BA%AFt-%C4%90%E1%BA%A7u-C%C6%A1-B%E1%BA%A3n-v%E1%BB%81-Git))
+
 Lưu ý: Chỉ được gửi 1 commit / 1 pull request
 
